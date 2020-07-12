@@ -1,0 +1,161 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #35424a;
+    border-bottom: 5px solid coral;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: burlywood;
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#banner {
+    height: 40vh;
+    background-image: url("../images/main.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #555555;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+#banner h1 {
+    font-size: 56px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#newsletter {
+    background-color: #35424a;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left {
+ float: left;
+}
+
+#newsletter .right {
+    float: right;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin-left: 15px;
+}
+
+#courses {
+    padding: 30px 10px;
+}
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    margin-top: 55px;
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+}
+
+#about-us {
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+
+.bg-dark {
+    background-color: #35424a;
+    color: white;
+}
+
+.service-box {
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+.form-input, textarea {
+    width: 90%;
+    padding: 10px 0;
+}
+
+.active {
+    color: coral !important;
+}
+
+
+
+
+
+
+
